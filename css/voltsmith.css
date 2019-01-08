@@ -1,0 +1,358 @@
+
+ /*	
+	the block-a of the grid containing the red links on first page, 
+	next to the Voltsmith logo, would be hidden in narrower display.
+	Also the logo would be smaller.
+ */
+ @media screen and (max-width:400px){
+	.ui-grid-a .ui-block-b{
+		display:none;
+	}
+	.ui-grid-a .ui-block-a{
+		width:100%;
+		float:auto;
+	}
+ }
+ /*	
+	The following queries manipulate the inner content block to be smaller
+	and navbar and button texts to be of smaller fonts as the screen keeps
+	shrinking...
+ */
+ @media screen and (min-width:750px){
+	.ui-mobile .ui-page-active{
+		width:750px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#content2{
+		padding-left:50px;
+		padding-right:40px;
+		padding-top:0px;
+		margin-bottom:20px;
+	}
+	.siemensTable{
+		width:900px;		
+		padding-right:0px;
+		padding-top:0px;
+		padding-bottom:20px;
+		margin-bottom:20px;
+	}
+	.ui-navbar  li .ui-btn-inner {
+		font-size: 12px;
+		font-family: lucida sans;
+		font-weight:bold;
+		overflow: visible;
+		position: relative;
+		text-overflow: ellipsis;
+		padding-left: 0px;
+		padding-right:0px;
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+	.ui-header .ui-title{ 
+	font-family:lucida sans;
+	font-size:14px;
+	overflow:visible;
+	}
+	.ui-footer .ui-title{ 
+	font-family:lucida sans;
+	font-size: 14px;
+	overflow:visible; 
+	white-space: pre;
+	}
+ }
+ 
+ @media screen and (max-width:750px){
+ 
+	.ui-mobile .ui-page-active{
+		width:100%;
+	}
+	.ui-navbar  li .ui-btn-inner {
+		font-size: 11px;
+		font-family: lucida sans;
+		overflow: visible;
+		position: relative;
+		text-overflow: ellipsis;
+		padding-left: 0px;
+		padding-right:0px;
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+	#content2{
+		padding-left:20px;
+		padding-right:10px;
+		padding-top:0px;
+		margin-top:0px;
+		margin-bottom:20px;
+	}
+	.ui-header .ui-title{ 
+		font-family:lucida sans;
+		font-size:12px;
+		overflow:visible;
+	}
+		.ui-footer .ui-title{ 
+		font-family:lucida sans;
+		font-size: 12px;
+		overflow:visible; 
+		white-space: pre;
+	}
+ }
+
+/*.ui-mobile-viewport-transitioning, .ui-mobile-viewport-transitioning .ui-page {
+	margin-left:auto;
+	margin-right:auto;
+}*/
+/*===================== custom headings  =========================== */
+
+ div.ui-content{
+	padding-top:2px;
+	padding-bottom:20px;
+	padding-left:0px;
+ } 
+
+ h1{
+	text-align:left;
+	font-family:lucida sans;
+	font-size:11px;
+	margin-top:0px;
+ }
+ #heading2{
+	font-family: lucida sans;
+	font-size: 12px;
+	font-weight:bold;
+	font-style:italic;
+ }
+
+  .heading3{
+	font-family: lucida sans;
+	font-size: 14px;
+	font-weight:bold;
+	color:#000000;
+	
+ }
+ .tableHeading{	
+	font-family: lucida sans;
+	font-size: 14px;
+	font-weight:bold;
+	color:#cc0000; /*  33CC00 #003399; 339966*/
+	margin-bottom:0px;
+	padding-bottom:5px;
+	padding-left:50px;
+ }
+ .underlined{
+	padding-left:24px;
+	font-family: lucida sans;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:underline;
+	color:#000000;
+ }
+ .dtExample{
+	padding-left:50px;
+	margin-bottom:20px;
+ }
+ 
+ /*===================== table  ======================== */
+ table{
+	width:100%;
+ }
+ .siemensTable{
+	width:900px;		
+	padding-right:0px;
+	padding-top:0px;
+	/*padding-bottom:20px;*/
+	margin-bottom:20px;
+}
+ 
+ /*===================== siemensTable <thead>  ======================== */
+ .tableHead{
+	background-color: #d1cfd0;/*#d1cfd0;   #C1FFC1*/
+	}
+/*===================== <td> link/anchor ======================== */	
+ a.tdLink{
+	font-family:verdana;
+	font-size:12px;
+	color: #003399;
+}	
+
+ tr{
+	font-family:verdana;
+	font-size:12px;
+	padding-bottom:3px;
+	padding-top:3px;
+	padding-left:2px;
+ }
+ th{
+	text-align:left;
+	padding-bottom: 5px;
+	padding-top: 5px;
+ }
+ /*===================== paragraph <p> ======================== */
+ p{
+	text-align:justify;
+	font-family:lucida sans;
+	font-size:13px;	
+	color:#000000;
+	}
+	
+ #homeParagraph{
+	text-align:justify;
+	font-family:lucida sans;
+	font-size:13px;	
+	font-weight:bold;
+	color:#000000;
+ }
+ p.productParagraph{
+	text-align:left;
+	padding-right: 20px;
+	padding-bottom:3px;
+	font-family:lucida sans;
+	font-size:13px;	
+	font-weight:bold;
+ }
+ p.leftParagraph{
+	text-align:left;
+	color:#000000;
+ }
+ p.resumeParagraph{
+	margin-top:2px;
+	padding-left: 24px;
+	text-align:left;
+	color:#000000;
+ }
+ p.resumeParagraph2{
+	margin-top:0px;
+	margin-bottom:5px;
+	padding-left: 24px;
+	text-align:left;
+	color:#000000;
+ }
+ p.bottomPadding{
+	margin-top:0px;
+	padding-bottom: 10px;
+	color:#000000;
+ 
+ }
+ p.gridParagraph{
+	padding:0px;
+	margin-top:5px;
+	text-align:left;
+ }
+ 
+ #quote{
+	font-family:lucida sans;
+	font-weight:bold;
+	font-size:14px;
+	font-style:italic;
+	color: #0066FF;
+ }
+ 
+ /*===================== Anchor <a> =========================== */
+ #myAnchor:hover,#siemens:hover{
+	color:#CC3333;
+ }
+ a.italicAnchor:hover{
+	color:#0066FF;
+ }
+ a.italicAnchor{
+	font-style: italic;
+	/*#0066FF;*/
+	font-size:14px;	
+	color:#CC3333;
+	}
+ /*a:active {color:#0000FF;}   selected link */ 
+
+ a.myAnchor{
+	color: #0066FF;
+	font-family:lucida sans;
+	font-size:14px;	
+ }
+ 
+ #tinyAnchor{
+	font-style: italic;
+	font-size:12px;	
+	color:#CC3333;
+}
+ #siemens{
+	font-style:italic;
+	font-family:lucida sans;
+	font-size:11px;	
+	color:#CC3333;
+	white-space:pre;
+ }
+ /*===================== =========================== */ 
+ 
+ #rightAligned{
+	float:right;
+	}
+ #rightAligned2{
+	padding-top:50px;
+	float:right;
+	}
+ #leftAligned{
+	float:left;
+	}	
+ #content{
+	width:740px;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:20px;
+ }
+ #banner{
+	text-align:center;
+	font-family:berlin sans fb demi;
+	font-weight:bold;
+	font-size:42px;
+	color:#CC3333;/*#0033CC;#6600FF*/
+	margin-top:10px;
+	margin-bottom:0px;
+}
+ #secondBanner{
+	font-family:berlin sans fb demi;
+	font-size:18px;
+	color:#CC3333; /*#0066FF;*/
+ }
+#productTitle{
+	font-family:times new roman;
+	padding-top:30px;
+	font-weight:bold;
+	font-size:16px;
+	color:#CC3333; /*#0066FF;*/
+} 
+#tagLine{
+	margin-top:10px;
+	text-align:justify;
+	font-family:lucida sans;
+	font-weight:bold;
+	font-style:italic;
+	font-size:17px;
+	color:#003399;  /*#2489CE; */
+}
+#spList{
+	font-family:lucida sans;
+	color:#6600FF;
+}
+div.ui-btn-text{ 
+	font-family:lucida sans;
+	font-size:12px;
+	color:#000000;
+} 
+div.ui-btn-up-b {
+    border: 1px solid #6600FF /*{b-bup-border}*/;
+    background:#000000 /*{b-bup-background-color}*/;
+	}
+
+ .ui-grid-a .ui-block-a{
+	display:block;
+ }
+ .ui-grid-a .ui-block-b{
+	float: right;
+ }	
+ .ui-grid-a .ui-block-a{
+	padding-top:0px;
+	margin-top:0px;
+	padding-bottom:10px;
+	text-overflow:ellipsis;	
+ }
+
+
